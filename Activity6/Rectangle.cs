@@ -5,35 +5,11 @@ namespace CSharp.Activity.Polymorphism
 {
     public class Rectangle : Shape
     {
-        /*public double Length { get; protected set; }*/
-        public double Length 
-        {
-            get
-            {
-                return Length;
-            }
-
-            protected set
-            {
-                return;
-            }
-        }
-        
-
-        public double Width
-        {
-
-            get
-            {
-                return Width;
-            }
-            protected set
-            {
-                return;
-            }
-        }
-
-        public Rectangle(double length, double width) : base()
+        public double Length { get; protected set; }
+       
+        public double Width { get; protected set; }
+       
+       public Rectangle(double length, double width) : base()
         {
             this.Width=width;
             this.Length = length;

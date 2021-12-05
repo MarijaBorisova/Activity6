@@ -48,7 +48,7 @@ namespace Activity6.Tests
 
             }
             Assert.AreEqual(6, areas[0]);
-            Assert.AreEqual(9, areas[1]);
+            Assert.AreEqual(28,26, areas[1]);
         }
 
         [TestClass]
@@ -58,7 +58,7 @@ namespace Activity6.Tests
             [TestMethod]
             public void TestPositiveValue()
             {
-                var myRadius = new Circle(-1);
+                var myRadius = new Circle(28.26);
                 var mySides = new Rectangle(3, 4);
 
                 Assert.IsTrue(myRadius.Radius > 0);
@@ -90,7 +90,7 @@ namespace Activity6.Tests
         {
             var myCircle = new Circle(3);
             var result = myCircle.CalculateArea();
-            Assert.AreEqual(9, result);
+            Assert.AreEqual(28,26, result);
         }
 
     }
