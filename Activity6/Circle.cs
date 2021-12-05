@@ -15,9 +15,9 @@ namespace CSharp.Activity.Polymorphism
         {
         }
 
-        public override void CalculateArea()
+        public override double CalculateArea()
         {
-            Area = Math.PI * Radius * Radius;
+            return Math.PI * Radius * Radius;
 
         }
 

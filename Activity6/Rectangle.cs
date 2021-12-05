@@ -39,9 +39,9 @@ namespace CSharp.Activity.Polymorphism
             this.Length = length;
         }
 
-        public override void CalculateArea()
+        public override double CalculateArea()
         {
-            Area=Length * Width;
+            return Length * Width;
 
         }
 

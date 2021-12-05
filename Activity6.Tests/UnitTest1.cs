@@ -34,7 +34,7 @@ namespace Activity6.Tests
                 new Rectangle(2,3),
                 new Circle(3)
             };
-            var areas = new List<string>();
+            var areas = new List<double>();
             foreach (Shape shape in shapes)
             {
                 if (shape.GetType() == typeof(Rectangle))
@@ -76,7 +76,7 @@ namespace Activity6.Tests
         public void TestCalculateArea()
         {
             var myRectangle = new Rectangle(3, 4);
-            var result = myRectangle.Area;
+            var result = myRectangle.CalculateArea();
             Assert.AreEqual(12, result);
         }
 
@@ -89,7 +89,7 @@ namespace Activity6.Tests
         public void TestCalculateArea()
         {
             var myCircle = new Circle(3);
-            var result = myCircle.Area;
+            var result = myCircle.CalculateArea();
             Assert.AreEqual(9, result);
         }
 

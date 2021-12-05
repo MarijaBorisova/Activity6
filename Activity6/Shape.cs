@@ -18,7 +18,7 @@ namespace CSharp.Activity.Polymorphism
             }
         }
 
-        public abstract void CalculateArea();
+        public abstract double CalculateArea();
 
         public virtual void Print()
         {
